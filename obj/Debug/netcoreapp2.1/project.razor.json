@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\44688951876\\Desktop\\4a Sprint\\aulas c#\\Nosso Trello\\Nosso Trello.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
