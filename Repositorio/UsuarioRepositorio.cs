@@ -2,26 +2,34 @@ using System;
 using System.Collections.Generic;
 using Nosso_Trello.ViewModel;
 
-namespace Nosso_Trello.Repositorio
-{
-    public class UsuarioRepositorio
-    {
-        List<UsuarioViewModel> ListaDeUsuarios = new List<UsuarioViewModel>();
+namespace Nosso_Trello.Repositorio {
+    public class UsuarioRepositorio {
+        List<UsuarioViewModel> ListaDeUsuarios = new List<UsuarioViewModel> ();
         /// <summary>Método responsável por armazenar um usúario</summary>
 
-        public UsuarioViewModel Inserir(UsuarioViewModel usuario){
+        public UsuarioViewModel Inserir (UsuarioViewModel usuario) {
             usuario.Id = ListaDeUsuarios.Count + 1;
             usuario.DataCriacao = DateTime.Now;
 
             //Insere o objeto usuario dentro da lista
-            ListaDeUsuarios.Add(usuario);
+            ListaDeUsuarios.Add (usuario);
 
             return usuario;
         }
         /// <summary>Retorna lista de usuario</summary>
 
-        public List<UsuarioViewModel> Listar(){
+        public List<UsuarioViewModel> Listar () {
             return ListaDeUsuarios;
-        }//fim listar
+        } //fim listar
+
+        public UsuarioViewModel BuscarUsuario (string email, string senha) {
+            foreach (var item in ListaDeUsuarios) {
+                if (item.Email.Equals (email) && item.Senha.Equals (senha)) {
+                    return item;
+                }
+
+            } // fim foraech
+            return null;
+        }
     }
 }

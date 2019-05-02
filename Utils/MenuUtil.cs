@@ -6,7 +6,9 @@ namespace Nosso_Trello.Utils {
 
         public static void MenuDeslogado () {
             Console.WriteLine ("--------------------------------");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine ("--------- Sportrello  ----------");
+            Console.ResetColor ();
             Console.WriteLine ("------------ Menu --------------");
             Console.WriteLine ("|| (1) Cadastrar Usuário      ||");
             Console.WriteLine ("|| (2) Login                  ||");
@@ -15,15 +17,17 @@ namespace Nosso_Trello.Utils {
             Console.WriteLine ("------ Escolha uma Opção -------");
         } //Fim do menu deslogado
 
-        public static void MenuLogado(){
+        public static void MenuLogado () {
             Console.WriteLine ("--------------------------------");
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine ("--------- Sportrello  ----------");
+            Console.ResetColor ();
             Console.WriteLine ("------------ Menu --------------");
             Console.WriteLine ("|| (1) Cadastrar Tarefas      ||");
             Console.WriteLine ("|| (2) Listar Tarefas         ||");
             Console.WriteLine ("|| (0) Logout                 ||");
             Console.WriteLine ("--------------------------------");
             Console.WriteLine ("------ Escolha uma Opção -------");
-        }// Fim do menu logado
+        } // Fim do menu logado
     }
 }

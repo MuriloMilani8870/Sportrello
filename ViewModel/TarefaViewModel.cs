@@ -1,12 +1,14 @@
 namespace Nosso_Trello.ViewModel
 {
-    public class TarefaViewModel
+    public class TarefaViewModel : BaseViewModel
     {
         public string Descricao{get;set;}
 
-        public string Tipo{get;set;}
+        public int Tipo{get;set;}
 
         public int IdUsuario{get;set;}
+
+        
 
     }
 }

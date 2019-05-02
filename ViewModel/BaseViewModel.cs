@@ -9,5 +9,6 @@ namespace Nosso_Trello.ViewModel
         public string Nome{get;set;}
 
         public DateTime DataCriacao{get;set;}
+
     }
 }

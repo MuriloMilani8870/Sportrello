@@ -21,20 +21,23 @@ namespace Nosso_Trello {
                         //Efetuar Login
                         UsuarioViewModel usuarioRecuperado = UsuarioViewController.EfetuarLogin ();
                         if (usuarioRecuperado != null) {
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine ($"Seja bem vindo - {usuarioRecuperado.Nome}");
+                            Console.ResetColor ();
                             Console.ReadLine ();
                             do {
                                 MenuUtil.MenuLogado ();
                                 opcaoLogado = int.Parse (Console.ReadLine ());
                                 switch (opcaoLogado) {
                                     case 1:
-                                    //Cadastrar Tarefas
-                                    // TarefaViewController.CadastrarTarefa ();
+                                        
+                                        //Cadastrar Tarefas
+                                        TarefaViewController.CadastrarTarefa ();
                                         break;
 
                                     case 2:
-                                    //Listar Tarefas
-                                    // TarefaViewController.ListarTarefas ();
+                                        //Listar Tarefas
+                                        TarefaViewController.ListarTarefas ();
                                         break;
 
                                 }

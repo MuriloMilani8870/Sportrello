@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\4a Sprint\\aulas c#\\Nosso Trello\\Nosso Trello.csproj",
+      "projectUniqueName": "c:\\Users\\44688951876\\Desktop\\4a Sprint\\aulas c#\\Nosso Trello\\Sportrello\\Nosso Trello.csproj",
       "projectName": "Nosso Trello",
-      "projectPath": "C:\\Users\\44688951876\\Desktop\\4a Sprint\\aulas c#\\Nosso Trello\\Nosso Trello.csproj",
+      "projectPath": "c:\\Users\\44688951876\\Desktop\\4a Sprint\\aulas c#\\Nosso Trello\\Sportrello\\Nosso Trello.csproj",
       "packagesPath": "C:\\Users\\44688951876\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44688951876\\Desktop\\4a Sprint\\aulas c#\\Nosso Trello\\obj\\",
+      "outputPath": "c:\\Users\\44688951876\\Desktop\\4a Sprint\\aulas c#\\Nosso Trello\\Sportrello\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
